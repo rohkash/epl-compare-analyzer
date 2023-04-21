@@ -11,7 +11,7 @@ async function start() {
   await client.connect();
   console.log('Connected to database');
 
-  const db = client.db('EPL');
+  const db = client.db('test');
 
   app.get('/', (req, res) => {
     res.send('Welcome to my app!');
